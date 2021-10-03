@@ -1,0 +1,95 @@
+.float-container {
+  display: flex;
+}
+
+
+.float-child {
+  width: 200px;
+  float: left;
+  background: #fff7ed;
+}
+
+.float-son {
+  float: right;
+  width: calc(100% - 200px);
+}
+
+.me {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 25px;
+  color: #555555;
+  font-family: "Helevantica Neue", sans-serif;
+}
+
+.sub {
+  padding-left: 20px;
+  display: flex;
+  font-family: "Helevantica Neue", sans-serif;
+
+}
+
+.tem{
+  padding-left: 20px;
+  display: flex;
+  font-size: 15px;
+  font-family: "Helevantica Neue", sans-serif;
+
+}
+.fend{
+ position: absolute; 
+ margin: 40px 0;
+ width: 200px;
+ 
+ 
+}
+
+.img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 40px 0;
+  margin-left: 20px;
+  float: left;
+}
+
+
+.den{
+  padding-left: 50px;
+  padding-left: 50px;
+  display: flex;
+  font-size: 15px;
+  color: white;
+  font-family: "Helevantica Neue", sans-serif;
+  border-radius: 25px;
+  background: #ff7f50;
+  padding: 14px;
+  width: 150px;
+  margin-left: 10px;
+  
+
+  
+  
+  
+}
+
+.fed {
+  float: right;
+  padding-top: 40px;
+  padding-right: 10px;
+}
+
+.get {
+  display: inline-block;
+  font: sans-serif;
+  
+}
+
+.med {
+  padding-left: 20px;
+  color: #ff7f50;
+  font-size: 12px;
+  font: sans-serif;
+}
+
